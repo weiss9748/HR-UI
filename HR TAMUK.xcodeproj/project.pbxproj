@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506177C71C4F0D4D00B0F525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506177C61C4F0D4D00B0F525 /* AppDelegate.swift */; };
+		506177C91C4F0D4D00B0F525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506177C81C4F0D4D00B0F525 /* ViewController.swift */; };
+		506177CC1C4F0D4D00B0F525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506177CA1C4F0D4D00B0F525 /* Main.storyboard */; };
+		506177CE1C4F0D4D00B0F525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506177CD1C4F0D4D00B0F525 /* Assets.xcassets */; };
+		506177D11C4F0D4D00B0F525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506177CF1C4F0D4D00B0F525 /* LaunchScreen.storyboard */; };
+		506177DC1C4F0D4D00B0F525 /* HR_TAMUKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506177DB1C4F0D4D00B0F525 /* HR_TAMUKTests.swift */; };
+		506177E71C4F0D4D00B0F525 /* HR_TAMUKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506177E61C4F0D4D00B0F525 /* HR_TAMUKUITests.swift */; };
+		509359171C6901A200E7CB64 /* 16586400.gif in Resources */ = {isa = PBXBuildFile; fileRef = 509359161C6901A200E7CB64 /* 16586400.gif */; };
+		509359191C69022100E7CB64 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509359181C69022100E7CB64 /* ScanView.swift */; };
+		5093591B1C6903DC00E7CB64 /* flatline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5093591A1C6903DC00E7CB64 /* flatline.jpg */; };
+		50AB77E61C65032A00DD4DC3 /* BPDataSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB77E51C65032A00DD4DC3 /* BPDataSelect.swift */; };
+		50AE2EC91C568DE600B0673F /* CVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2EC81C568DE600B0673F /* CVCell.swift */; };
+		50AE2ECC1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.56 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AE2ECA1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.56 PM.png */; };
+		50AE2ECD1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AE2ECB1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.55 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		506177D81C4F0D4D00B0F525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506177BB1C4F0D4D00B0F525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506177C21C4F0D4D00B0F525;
+			remoteInfo = "HR TAMUK";
+		};
+		506177E31C4F0D4D00B0F525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506177BB1C4F0D4D00B0F525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506177C21C4F0D4D00B0F525;
+			remoteInfo = "HR TAMUK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		506177C31C4F0D4D00B0F525 /* HR TAMUK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HR TAMUK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506177C61C4F0D4D00B0F525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		506177C81C4F0D4D00B0F525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		506177CB1C4F0D4D00B0F525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		506177CD1C4F0D4D00B0F525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		506177D01C4F0D4D00B0F525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		506177D21C4F0D4D00B0F525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506177D71C4F0D4D00B0F525 /* HR TAMUKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HR TAMUKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506177DB1C4F0D4D00B0F525 /* HR_TAMUKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_TAMUKTests.swift; sourceTree = "<group>"; };
+		506177DD1C4F0D4D00B0F525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506177E21C4F0D4D00B0F525 /* HR TAMUKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HR TAMUKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506177E61C4F0D4D00B0F525 /* HR_TAMUKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_TAMUKUITests.swift; sourceTree = "<group>"; };
+		506177E81C4F0D4D00B0F525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509359161C6901A200E7CB64 /* 16586400.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16586400.gif; sourceTree = "<group>"; };
+		509359181C69022100E7CB64 /* ScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		5093591A1C6903DC00E7CB64 /* flatline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flatline.jpg; sourceTree = "<group>"; };
+		50AB77E51C65032A00DD4DC3 /* BPDataSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPDataSelect.swift; sourceTree = "<group>"; };
+		50AE2EC81C568DE600B0673F /* CVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCell.swift; sourceTree = "<group>"; };
+		50AE2ECA1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.56 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-11-24 at 4.35.56 PM.png"; sourceTree = "<group>"; };
+		50AE2ECB1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-11-24 at 4.35.55 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506177C01C4F0D4D00B0F525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506177D41C4F0D4D00B0F525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506177DF1C4F0D4D00B0F525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506177BA1C4F0D4D00B0F525 = {
+			isa = PBXGroup;
+			children = (
+				506177C51C4F0D4D00B0F525 /* HR TAMUK */,
+				506177DA1C4F0D4D00B0F525 /* HR TAMUKTests */,
+				506177E51C4F0D4D00B0F525 /* HR TAMUKUITests */,
+				506177C41C4F0D4D00B0F525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		506177C41C4F0D4D00B0F525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506177C31C4F0D4D00B0F525 /* HR TAMUK.app */,
+				506177D71C4F0D4D00B0F525 /* HR TAMUKTests.xctest */,
+				506177E21C4F0D4D00B0F525 /* HR TAMUKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506177C51C4F0D4D00B0F525 /* HR TAMUK */ = {
+			isa = PBXGroup;
+			children = (
+				506177C61C4F0D4D00B0F525 /* AppDelegate.swift */,
+				506177C81C4F0D4D00B0F525 /* ViewController.swift */,
+				506177CA1C4F0D4D00B0F525 /* Main.storyboard */,
+				50AE2EC81C568DE600B0673F /* CVCell.swift */,
+				509359181C69022100E7CB64 /* ScanView.swift */,
+				50AB77E51C65032A00DD4DC3 /* BPDataSelect.swift */,
+				506177CD1C4F0D4D00B0F525 /* Assets.xcassets */,
+				506177CF1C4F0D4D00B0F525 /* LaunchScreen.storyboard */,
+				50AE2ECA1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.56 PM.png */,
+				50AE2ECB1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.55 PM.png */,
+				5093591A1C6903DC00E7CB64 /* flatline.jpg */,
+				509359161C6901A200E7CB64 /* 16586400.gif */,
+				506177D21C4F0D4D00B0F525 /* Info.plist */,
+			);
+			path = "HR TAMUK";
+			sourceTree = "<group>";
+		};
+		506177DA1C4F0D4D00B0F525 /* HR TAMUKTests */ = {
+			isa = PBXGroup;
+			children = (
+				506177DB1C4F0D4D00B0F525 /* HR_TAMUKTests.swift */,
+				506177DD1C4F0D4D00B0F525 /* Info.plist */,
+			);
+			path = "HR TAMUKTests";
+			sourceTree = "<group>";
+		};
+		506177E51C4F0D4D00B0F525 /* HR TAMUKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				506177E61C4F0D4D00B0F525 /* HR_TAMUKUITests.swift */,
+				506177E81C4F0D4D00B0F525 /* Info.plist */,
+			);
+			path = "HR TAMUKUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506177C21C4F0D4D00B0F525 /* HR TAMUK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506177EB1C4F0D4D00B0F525 /* Build configuration list for PBXNativeTarget "HR TAMUK" */;
+			buildPhases = (
+				506177BF1C4F0D4D00B0F525 /* Sources */,
+				506177C01C4F0D4D00B0F525 /* Frameworks */,
+				506177C11C4F0D4D00B0F525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HR TAMUK";
+			productName = "HR TAMUK";
+			productReference = 506177C31C4F0D4D00B0F525 /* HR TAMUK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		506177D61C4F0D4D00B0F525 /* HR TAMUKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506177EE1C4F0D4D00B0F525 /* Build configuration list for PBXNativeTarget "HR TAMUKTests" */;
+			buildPhases = (
+				506177D31C4F0D4D00B0F525 /* Sources */,
+				506177D41C4F0D4D00B0F525 /* Frameworks */,
+				506177D51C4F0D4D00B0F525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506177D91C4F0D4D00B0F525 /* PBXTargetDependency */,
+			);
+			name = "HR TAMUKTests";
+			productName = "HR TAMUKTests";
+			productReference = 506177D71C4F0D4D00B0F525 /* HR TAMUKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		506177E11C4F0D4D00B0F525 /* HR TAMUKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506177F11C4F0D4D00B0F525 /* Build configuration list for PBXNativeTarget "HR TAMUKUITests" */;
+			buildPhases = (
+				506177DE1C4F0D4D00B0F525 /* Sources */,
+				506177DF1C4F0D4D00B0F525 /* Frameworks */,
+				506177E01C4F0D4D00B0F525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506177E41C4F0D4D00B0F525 /* PBXTargetDependency */,
+			);
+			name = "HR TAMUKUITests";
+			productName = "HR TAMUKUITests";
+			productReference = 506177E21C4F0D4D00B0F525 /* HR TAMUKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		506177BB1C4F0D4D00B0F525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tamuk;
+				TargetAttributes = {
+					506177C21C4F0D4D00B0F525 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					506177D61C4F0D4D00B0F525 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 506177C21C4F0D4D00B0F525;
+					};
+					506177E11C4F0D4D00B0F525 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 506177C21C4F0D4D00B0F525;
+					};
+				};
+			};
+			buildConfigurationList = 506177BE1C4F0D4D00B0F525 /* Build configuration list for PBXProject "HR TAMUK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 506177BA1C4F0D4D00B0F525;
+			productRefGroup = 506177C41C4F0D4D00B0F525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506177C21C4F0D4D00B0F525 /* HR TAMUK */,
+				506177D61C4F0D4D00B0F525 /* HR TAMUKTests */,
+				506177E11C4F0D4D00B0F525 /* HR TAMUKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506177C11C4F0D4D00B0F525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AE2ECC1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.56 PM.png in Resources */,
+				506177D11C4F0D4D00B0F525 /* LaunchScreen.storyboard in Resources */,
+				506177CE1C4F0D4D00B0F525 /* Assets.xcassets in Resources */,
+				50AE2ECD1C5694C500B0673F /* Screen Shot 2015-11-24 at 4.35.55 PM.png in Resources */,
+				509359171C6901A200E7CB64 /* 16586400.gif in Resources */,
+				506177CC1C4F0D4D00B0F525 /* Main.storyboard in Resources */,
+				5093591B1C6903DC00E7CB64 /* flatline.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506177D51C4F0D4D00B0F525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506177E01C4F0D4D00B0F525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506177BF1C4F0D4D00B0F525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AE2EC91C568DE600B0673F /* CVCell.swift in Sources */,
+				50AB77E61C65032A00DD4DC3 /* BPDataSelect.swift in Sources */,
+				509359191C69022100E7CB64 /* ScanView.swift in Sources */,
+				506177C91C4F0D4D00B0F525 /* ViewController.swift in Sources */,
+				506177C71C4F0D4D00B0F525 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506177D31C4F0D4D00B0F525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506177DC1C4F0D4D00B0F525 /* HR_TAMUKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506177DE1C4F0D4D00B0F525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506177E71C4F0D4D00B0F525 /* HR_TAMUKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		506177D91C4F0D4D00B0F525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506177C21C4F0D4D00B0F525 /* HR TAMUK */;
+			targetProxy = 506177D81C4F0D4D00B0F525 /* PBXContainerItemProxy */;
+		};
+		506177E41C4F0D4D00B0F525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506177C21C4F0D4D00B0F525 /* HR TAMUK */;
+			targetProxy = 506177E31C4F0D4D00B0F525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		506177CA1C4F0D4D00B0F525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506177CB1C4F0D4D00B0F525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		506177CF1C4F0D4D00B0F525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506177D01C4F0D4D00B0F525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		506177E91C4F0D4D00B0F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506177EA1C4F0D4D00B0F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506177EC1C4F0D4D00B0F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HR TAMUK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Weiss.HR-TAMUK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506177ED1C4F0D4D00B0F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HR TAMUK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Weiss.HR-TAMUK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506177EF1C4F0D4D00B0F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HR TAMUKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Weiss.HR-TAMUKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HR TAMUK.app/HR TAMUK";
+			};
+			name = Debug;
+		};
+		506177F01C4F0D4D00B0F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HR TAMUKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Weiss.HR-TAMUKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HR TAMUK.app/HR TAMUK";
+			};
+			name = Release;
+		};
+		506177F21C4F0D4D00B0F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HR TAMUKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Weiss.HR-TAMUKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HR TAMUK";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		506177F31C4F0D4D00B0F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HR TAMUKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Weiss.HR-TAMUKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HR TAMUK";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506177BE1C4F0D4D00B0F525 /* Build configuration list for PBXProject "HR TAMUK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506177E91C4F0D4D00B0F525 /* Debug */,
+				506177EA1C4F0D4D00B0F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506177EB1C4F0D4D00B0F525 /* Build configuration list for PBXNativeTarget "HR TAMUK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506177EC1C4F0D4D00B0F525 /* Debug */,
+				506177ED1C4F0D4D00B0F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506177EE1C4F0D4D00B0F525 /* Build configuration list for PBXNativeTarget "HR TAMUKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506177EF1C4F0D4D00B0F525 /* Debug */,
+				506177F01C4F0D4D00B0F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506177F11C4F0D4D00B0F525 /* Build configuration list for PBXNativeTarget "HR TAMUKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506177F21C4F0D4D00B0F525 /* Debug */,
+				506177F31C4F0D4D00B0F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 506177BB1C4F0D4D00B0F525 /* Project object */;
+}
